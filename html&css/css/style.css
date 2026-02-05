@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+.body{
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
+    
+}
+
+.my{ 
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 1px 4px 0px #c5c5c5;
+    padding: 5px 20px 5px 35px ;
+    background-color: #fff;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+
+}
+.nvright ul{ 
+
+    list-style: none;
+}
+.nvright ul li{
+    display: inline-block;
+    
+    
+}
+
+.nvright ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    line-height: 24px;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+}
+.nvright ul li a:hover{
+    background-color: rgb(201, 201, 201);
+    border-radius: 10px;
+}
+
+
+.nvlift p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 5px;
+
+}
+.nvlift p span{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+/* -----------hero section---------------- */
+.heroDV{
+    position: relative;
+
+}
+.heroDV H1{
+    position: absolute;
+    text-align: center;
+     width: 100%;
+    top: 50%;
+    color: #F1F9FF;
+    font-size: 32PX;
+    line-height: 24PX;
+    letter-spacing: 5PX;
+
+
+}
+.heroDV img{
+    width: 100%;
+    height: 800px;
+
+
+}   
+.heroDV h1 span{
+    background-color: #000000BF;
+    width: 70px;
+    height: 60PX;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 71px;
+}
+/* -------------projects------------ */
+/* .section{
+    padding: 55px 40px 0;
+
+}
+
+.mytitel{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    border-bottom:1px solid ;
+    border: 1px solid #a7a7a721;
+
+}
+
+.projects{
+    position: relative;
+    display: inline-block;
+}
+
+.card img{
+    width: 22px;
+    
+}
+
+.card  p
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #ffffff;
+    background-color: black;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 15px;
+} */
+/* .section {
+  padding: 80px 40px;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+} */
+
+/* Projects */
+.projects {
+  display: ruby;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px; 
+  
+}
+
+.card {
+  position: relative;
+  margin-right: 10px;
+}
+
+.card p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #000;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+.card img {
+  width: 100%;
+ display: ruby; 
+ transform: 0.5s;
+}
+.card img:hover {
+  transform: scale(1.05);
+}
+/* About */
+.team {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+
+}
+
+.person img {
+  width: 100%;
+}
+
+.person button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #ddd;
+  cursor: pointer;
+}
+.person button:hover {
+  background: #595656
+}
+.person p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color:#1E1E1E ;
+}
+.person h6{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #787878;
+}
+/* Contact */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.contact-form button {
+  background: #000;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  width: 130px;
+  height: 40px;
+  margin: 50px 0;
+}
+.contact-form button:hover {
+  background: #333;
+}
+.ali{
+    font-weight: 500;
+    font-size: 17.5px;
+    line-height: 24px;
+    color:#1E1E1E ;
+}
+/* Map */
+.map img {
+  width: 100%;
+}
+
+/* Footer */
+footer {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
